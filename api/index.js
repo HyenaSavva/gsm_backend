@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
-const router = require("./routes/index");
+const router = require("../src/routes/index");
 const errorHandler = require("../middleware/ErrorHandlingMiddleware");
 const fileUpload = require("express-fileupload");
 

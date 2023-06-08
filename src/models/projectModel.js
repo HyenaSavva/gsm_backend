@@ -1,4 +1,4 @@
-const { db, bucket } = require("../db");
+const { db, bucket } = require("../db/db");
 const { Timestamp } = require("firebase-admin/firestore");
 const { getProjectPropreties } = require("../utils/files");
 

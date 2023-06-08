@@ -1,4 +1,4 @@
-const { db, auth } = require("../db");
+const { db, auth } = require("../db/db");
 const fs = require("fs");
 const { Timestamp } = require("firebase-admin/firestore");
 const { executeScrapper } = require("../scrapper/index");
