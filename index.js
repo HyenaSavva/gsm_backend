@@ -15,8 +15,8 @@ app.use(fileUpload()); // { useTempFiles: true, tempFileDir: "./tmp" }
 app.use("/api", router);
 // app.use(errorHandler);
 
-(async () => {
-  app.listen(PORT, () => {
-    console.log(`Listening at http://localhost:${PORT}`);
-  });
-})();
+app.listen(PORT, () => {
+  console.log(`Listening at http://localhost:${PORT}`);
+});
+
+module.exports = app;
