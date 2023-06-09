@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const ProjectController = require("../controllers/ProjectController");
+const ProjectController = require("../controllers/projectController");
 const router = new Router();
 
 router.post("/", ProjectController.create);
