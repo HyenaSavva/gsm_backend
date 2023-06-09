@@ -1,8 +1,8 @@
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
-const router = require("../src/routes/index");
-const errorHandler = require("../middleware/ErrorHandlingMiddleware");
+const router = require("./src/routes/index");
+const errorHandler = require("./middleware/ErrorHandlingMiddleware");
 const fileUpload = require("express-fileupload");
 
 const PORT = process.env.PORT || 4000;
